@@ -37,6 +37,8 @@ let foods = [
 
 //CODE HERE
 
+foods.forEach(this.calories = ((this.carbs * 4) + (this.protein * 4) + (this.fat * 9)))
+
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
   For problems 2-4, you will be working with the products array below.
@@ -81,6 +83,8 @@ const products = [
 */
 
 //CODE HERE
+
+let saleProducts = products.map(this.price = (this.price/1.25))
 
 ////////////////////PROBLEM 3////////////////////
 /*
