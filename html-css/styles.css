@@ -12,3 +12,149 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items:baseline;
+padding: 20px;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(37, 37, 37);
+  border: 2px solid gray;
+  position:fixed;
+}
+
+header h1{
+  /* display: flex;
+  justify-content: left; */
+  color: dodgerblue;
+  /* margin-right:50vw; */
+
+}
+
+nav {
+  box-sizing: border-box;
+  width: 30vw;
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  color:lightgray;
+
+}
+
+main {
+  padding-top: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+article {
+  width: 50vw;
+
+}
+
+aside{
+  /* height: 150vh; */
+}
+
+#profile {
+  box-sizing: border-box;
+  width:15vw;
+  height: 15vw;
+  margin: 3vh;
+  box-shadow: 0px 0px 30px 1px lightgray;
+  border-radius: .5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-content: space-evenly;
+}
+
+img{
+  height: 12vw;
+}
+
+#popular {
+  box-sizing: border-box;
+  width: 15vw;
+  height: 35vh;
+  margin: 3vh;
+  padding:10px;
+  box-shadow: 0px 0px 30px 1px lightgray;
+  border-radius: .5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+
+}
+
+li{
+  margin:4px;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 50vw;
+
+}
+
+section h3 {
+  display: block;
+  
+}
+
+section p {
+  display: block;
+  color: skyblue;
+  
+}
+
+.imgplchld {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.imgplchld img{
+  width:15vw;
+}
+
+#chat {
+  box-sizing: border-box;
+  margin: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height:30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 2px solid black;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  font-size: 150%;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: dodgerblue;
+  height: 7.5vh;
+  padding: 15px;
+  display: flex;
+  align-content: baseline;
+}
