@@ -349,7 +349,7 @@ let fidoIntro = dogIntro.apply(fido, [chicken, tennisball])
 
 //CODE HERE
 
-const Phone = function (brand, model, storage, color, sold){
+function Phone (brand, model, storage, color, sold){
     this.brand = brand;
     this.model = model;
     this.storage = storage;
@@ -370,11 +370,11 @@ const Phone = function (brand, model, storage, color, sold){
 */
 
 //CODE HERE
-  let phone1 = new Phone(microsoft, lumia, 2, black, false)
+  let phone1 = new Phone (microsoft, lumia, 2, black, false);
   
-  let phone2 = new Phone (apple, Xr, 16, black, false)
+  let phone2 = new Phone (apple, Xr, 16, black, false);
   
-  let phone3 = new Phone (apple, Xr, 16, white, false)
+  let phone3 = new Phone (apple, Xr, 16, white, false);
   
 /*
     Last, add a prototype method to Phone.
